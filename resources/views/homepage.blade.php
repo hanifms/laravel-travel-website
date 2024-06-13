@@ -457,75 +457,35 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
 
-    <div class="container">
-        <section id="inquiries">
-<div class="row">
-<div class="col-md-8">
-<h1><img src="Inquiry.png" width="80px">Inquiries</h1>
-<form name="contact-form" action="" method="post" id="contact-form">
-<div class="form-group">
-<label for="UserID">User ID</label>
-<input type="text" class="form-control" name="UserID" placeholder="User ID" required>
-</div>
-<div class="form-group">
-<label for="PackageID">Package ID</label>
-<input type="text" class="form-control" name="PackageID" placeholder="Package ID" required>
-</div>
-<div class="form-group">
-<label for="InquiryDate">Inquiry Date</label>
-<input type="text" class="form-control" name="InquiryDate" placeholder="Inquiry Date" required>
-</div>
-<div class="form-group">
-<label for="InquiryMessage">Inquiry Message</label>
-<textarea name="InquiryMessage" class="form-control" rows="3" cols="28" rows="5" placeholder="Inquiry"></textarea>
-</div>
-<button type="submit" class="btn btn-primary" name="submit" value="Submit" id="submit_form">Submit</button>
-<img src="img/loading.gif" id="loading-img">
-</form>
-<div class="response_msg"></div>
-</div>
-</div>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-$("#contact-form").on("submit",function(e){
-e.preventDefault();
-if($("#contact-form [UserID='UserID']").val() === '')
-{
-$("#contact-form [UserID='UserID']").css("border","1px solid red");
-}
-else if ($("#contact-form [UserID='PackageID']").val() === '')
-{
-$("#contact-form [UserID='PackageID']").css("border","1px solid red");
-}
-else
-{
-$("#loading-img").css("display","block");
-var sendData = $( this ).serialize();
-$.ajax({
-type: "POST",
-url: "get_response.php",
-data: sendData,
-success: function(data){
-$("#loading-img").css("display","none");
-$(".response_msg").text(data);
-$(".response_msg").slideDown().fadeOut(3000);
-$("#contact-form").find("input[type=text], input[type=email], textarea").val("");
-}
-});
-}
-});
-$("#contact-form input").blur(function(){
-var checkValue = $(this).val();
-if(checkValue != '')
-{
-$(this).css("border","1px solid #eeeeee");
-}
-});
-});
-</script>
-    </section>
+      <div class="container">
+        <div class="form">
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group col-md-6 mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            </div>
+
+            <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+
+      </div>
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
