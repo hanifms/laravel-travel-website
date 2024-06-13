@@ -616,6 +616,36 @@ $(this).css("border","1px solid #eeeeee");
 });
 });
 </script>
+        <style>
+    #uni_modal .modal-content>.modal-footer{
+        display:none;
+    }
+</style>
+<div class="container-fluid">
+    <form action="" id="rate-review">
+            <input name="package_id" type="hidden" value="<?php echo $_GET['id'] ?>" >
+        <div class="form-group">
+            <label for="" class="control-label">Rate</label>
+            <div class="stars">
+                    <input value="5" class="star star-5" id="star-5" type="radio" name="rate" /> <label class="star star-5" for="star-5"></label> 
+                    <input value="4" class="star star-4" id="star-4" type="radio" name="rate" /> <label class="star star-4" for="star-4"></label> 
+                    <input value="3" class="star star-3" id="star-3" type="radio" name="rate" /> <label class="star star-3" for="star-3"></label> 
+                    <input value="2" class="star star-2" id="star-2" type="radio" name="rate" /> <label class="star star-2" for="star-2"></label> 
+                    <input value="1" class="star star-1" id="star-1" type="radio" name="rate" checked/> <label class="star star-1" for="star-1"></label> 
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="review" class="control-label">Feedback</label>
+            <textarea name="review" id="review" cols="30" rows="10" class="form form-control summernote"></textarea>
+        </div>
+
+    </form>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-primary" id='submit' onclick="$('#uni_modal form').submit()">Submit</button>
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+</div>
+
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
