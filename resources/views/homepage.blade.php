@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Reveal Bootstrap Template</title>
+  <title>TourMe - Home</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -23,6 +23,8 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -42,8 +44,8 @@
   <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">tour@example.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+60382910385</span></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
         <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -59,7 +61,7 @@
     <div class="container d-flex justify-content-between">
 
       <div id="logo">
-        <h1><a href="index.html">Reve<span>al</span></a></h1>
+        <h1><a href="index.html">Tour<span>Me</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt=""></a>-->
       </div>
@@ -69,25 +71,8 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
+          <li><a class="nav-link scrollto " href="#portfolio">Our Packages</a></li>
+          <li><a class="nav-link scrollto" href="#inquiries">Inquiries</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -100,10 +85,10 @@
   <section id="hero">
 
     <div class="hero-content" data-aos="fade-up">
-      <h2>Making <span>your ideas</span><br>happen!</h2>
+      <h2>Plan <span>your travels</span><br>with ease!</h2>
       <div>
         <a href="#about" class="btn-get-started scrollto">Get Started</a>
-        <a href="#portfolio" class="btn-projects scrollto">Our Projects</a>
+        <a href="#portfolio" class="btn-projects scrollto">Browse Packages</a>
       </div>
     </div>
 
@@ -130,12 +115,12 @@
           </div>
 
           <div class="col-lg-6 content">
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2>
-            <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+            <h2>Travel with confidence with us!</h2>
+            <h3>We provide tour packages for Malaysia and Asean Countries.</h3>
 
             <ul>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li><i class="bi bi-check-circle"></i> More than 50,000 have used our service</li>
+              <li><i class="bi bi-check-circle"></i> Values</li>
               <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
             </ul>
 
@@ -219,118 +204,118 @@
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>Our Portfolio</h2>
-          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Our Tour Packages</h2>
+            <p>Here is the list of available tour packages for you to pick!</p>
+          </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">Peninsular Malaysia</li>
+                <li data-filter=".filter-card">East Malaysia</li>
+                <li data-filter=".filter-web">Asean</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cameron Highland</h4>
+                <p>Peninsular Malaysia</p>
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Thailand</h4>
+                <p>Asean</p>
+                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Genting Higland</h4>
+                <p>Peninsular Malaysia</p>
+                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Kota Kinabalu</h4>
+                <p>East Malaysia</p>
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Vietnam</h4>
+                <p>Asean</p>
+                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Langkawi</h4>
+                <p>Peninsular Malaysia</p>
+                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Tawau</h4>
+                <p>East Malaysia</p>
+                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Kuching</h4>
+                <p>East Malaysia</p>
+                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Brunei Darussalam</h4>
+                <p>Asean</p>
+                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+
+          </div>
+
         </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= -->
@@ -431,151 +416,116 @@
       </div>
     </section><!-- End Call To Action Section -->
 
-    <!-- ======= Team Section ======= -->
-    <section id="team">
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>Our Team</h2>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team-1.jpg" alt=""></div>
-              <div class="details">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team-2.jpg" alt=""></div>
-              <div class="details">
-                <h4>Sarah Jhinson</h4>
-                <span>Product Manager</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team-3.jpg" alt=""></div>
-              <div class="details">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team-4.jpg" alt=""></div>
-              <div class="details">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Team Section -->
-
     <!-- ======= Contact Section ======= -->
     <section id="contact">
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>Contact Us</h2>
-          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Contact Us</h2>
+            <p>Need more information about our packages? Contact us!</p>
+          </div>
+
+          <div class="row contact-info">
+
+            <div class="col-md-4">
+              <div class="contact-address">
+                <i class="bi bi-geo-alt"></i>
+                <h3>Address</h3>
+                <address>Gombak, Selangor, Malaysia</address>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="contact-phone">
+                <i class="bi bi-phone"></i>
+                <h3>Phone Number</h3>
+                <p><a href="tel:+155895548855">+60382910385</a></p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="contact-email">
+                <i class="bi bi-envelope"></i>
+                <h3>Email</h3>
+                <p><a href="mailto:info@example.com">tour@example.com</a></p>
+              </div>
+            </div>
+
+          </div>
         </div>
-
-        <div class="row contact-info">
-
-          <div class="col-md-4">
-            <div class="contact-address">
-              <i class="bi bi-geo-alt"></i>
-              <h3>Address</h3>
-              <address>A108 Adam Street, NY 535022, USA</address>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-phone">
-              <i class="bi bi-phone"></i>
-              <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-email">
-              <i class="bi bi-envelope"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a></p>
-            </div>
-          </div>
-
-        </div>
-      </div>
 
       <div class="container mb-4">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
 
-      <div class="container">
-        <div class="form">
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-            <div class="row">
-              <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-              </div>
-              <div class="form-group col-md-6 mt-3 mt-md-0">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-              </div>
-            </div>
-            <div class="form-group mt-3">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-            </div>
-            <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-            </div>
-
-            <div class="my-3">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-            </div>
-
-            <div class="text-center"><button type="submit">Send Message</button></div>
-          </form>
-        </div>
-
-      </div>
+    <div class="container">
+        <section id="inquiries">
+<div class="row">
+<div class="col-md-8">
+<h1><img src="Inquiry.png" width="80px">Inquiries</h1>
+<form name="contact-form" action="" method="post" id="contact-form">
+<div class="form-group">
+<label for="UserID">User ID</label>
+<input type="text" class="form-control" name="UserID" placeholder="User ID" required>
+</div>
+<div class="form-group">
+<label for="PackageID">Package ID</label>
+<input type="text" class="form-control" name="PackageID" placeholder="Package ID" required>
+</div>
+<div class="form-group">
+<label for="InquiryDate">Inquiry Date</label>
+<input type="text" class="form-control" name="InquiryDate" placeholder="Inquiry Date" required>
+</div>
+<div class="form-group">
+<label for="InquiryMessage">Inquiry Message</label>
+<textarea name="InquiryMessage" class="form-control" rows="3" cols="28" rows="5" placeholder="Inquiry"></textarea>
+</div>
+<button type="submit" class="btn btn-primary" name="submit" value="Submit" id="submit_form">Submit</button>
+<img src="img/loading.gif" id="loading-img">
+</form>
+<div class="response_msg"></div>
+</div>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#contact-form").on("submit",function(e){
+e.preventDefault();
+if($("#contact-form [UserID='UserID']").val() === '')
+{
+$("#contact-form [UserID='UserID']").css("border","1px solid red");
+}
+else if ($("#contact-form [UserID='PackageID']").val() === '')
+{
+$("#contact-form [UserID='PackageID']").css("border","1px solid red");
+}
+else
+{
+$("#loading-img").css("display","block");
+var sendData = $( this ).serialize();
+$.ajax({
+type: "POST",
+url: "get_response.php",
+data: sendData,
+success: function(data){
+$("#loading-img").css("display","none");
+$(".response_msg").text(data);
+$(".response_msg").slideDown().fadeOut(3000);
+$("#contact-form").find("input[type=text], input[type=email], textarea").val("");
+}
+});
+}
+});
+$("#contact-form input").blur(function(){
+var checkValue = $(this).val();
+if(checkValue != '')
+{
+$(this).css("border","1px solid #eeeeee");
+}
+});
+});
+</script>
+    </section>
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
